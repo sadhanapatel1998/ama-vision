@@ -590,187 +590,50 @@
                 </div>
             </div>
 
-
-            <section class="bg-[#050505] py-20 overflow-hidden relative">
-
-                <!-- Gold Glow Background -->
-                <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[300px] bg-yellow-500/10 blur-[120px] rounded-full"></div>
-
-                <div class="max-w-7xl mx-auto px-6 mb-12 text-center relative z-10">
-                    <span class="text-yellow-500 uppercase tracking-[0.35em] text-sm font-semibold">Portfolio Gallery</span>
-                    <h2 class="text-white text-4xl md:text-5xl font-bold mt-3">
-                        Crafted Experiences
-                    </h2>
-                    <p class="text-gray-400 mt-4 max-w-2xl mx-auto">
-                        Explore our work across industries with a premium cinematic showcase.
-                    </p>
-                </div>
-
+            <div class="gallery-section">
                 <!-- Row 1 -->
-                <div class="marquee group mb-8">
-                    <div class="marquee-track marquee-left">
-                        <div class="gallery-card"><img src="images/portfolio/g20.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/energy.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/corporate.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/realestate.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/education.jpg"></div>
-
+                <div class="marquee mb-4">
+                    <div class="marquee-track left-scroll">
+                        <div class="gallery-card"><img src="images/gallery/gal-1.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-2.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-3.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-4.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-5.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-6.jpg"></div>
                         <!-- Duplicate -->
-                        <div class="gallery-card"><img src="images/portfolio/g20.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/energy.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/corporate.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/realestate.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/education.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-1.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-2.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-3.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-4.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-5.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-6.jpg"></div>
+
+
                     </div>
                 </div>
 
                 <!-- Row 2 -->
-                <div class="marquee group">
-                    <div class="marquee-track marquee-right">
-                        <div class="gallery-card"><img src="images/portfolio/fmcg.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/technology.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/fashion.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/retail.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/hospitality.jpg"></div>
-
+                <div class="marquee">
+                    <div class="marquee-track right-scroll">
+                        <div class="gallery-card"><img src="images/gallery/gal-7.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-8.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-9.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-10.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-11.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-12.jpg"></div>
                         <!-- Duplicate -->
-                        <div class="gallery-card"><img src="images/portfolio/fmcg.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/technology.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/fashion.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/retail.jpg"></div>
-                        <div class="gallery-card"><img src="images/portfolio/hospitality.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-7.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-8.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-9.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-10.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-11.jpg"></div>
+                        <div class="gallery-card"><img src="images/gallery/gal-12.jpg"></div>
                     </div>
-                </div>
-
-            </section>
-        </div>
-    </div>
-    <!-- Our Wedding Gallery Section End -->
-
-    <!-- Our Faqs Section Start -->
-    <div class="our-faqs light-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6">
-                    <!-- FAQ CTA Box Start -->
-                    <div class="faq-cta-box wow fadeInUp">
-                        <!-- FAQ CTA Image Box Start -->
-                        <div class="faq-cta-image-box">
-                            <div class="faq-cta-image">
-                                <figure>
-                                    <img src="images/faq-image.png" alt="">
-                                </figure>
-                            </div>
-                            <div class="faq-cta-image-content">
-                                <h2>Robert Fox</h2>
-                                <p>( Founder )</p>
-                            </div>
-                        </div>
-                        <!-- FAQ CTA Image Box End -->
-
-                        <!-- FAQ CTA Body Start -->
-                        <div class="faq-cta-body">
-                            <div class="faq-cta-body-content">
-                                <h3>Do you Have Any Question?</h3>
-                                <p>Have a question about our wedding photography services? We're here to help! Whether you need details about packages, availability</p>
-                            </div>
-                            <div class="faq-social-links">
-                                <ul>
-                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="our-faq-btn">
-                                <a href="faqs.html" class="btn-default">View all FAQ's</a>
-                            </div>
-                        </div>
-                        <!-- FAQ CTA Body End -->
-                    </div>
-                    <!-- FAQ CTA Box End -->
-                </div>
-
-                <div class="col-xl-6">
-                    <!-- Faq Content Start -->
-                    <div class="faq-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Frequently Asked Question</span>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Your wedding photography <span>questions answered</span></h2>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- FAQ Accordion Start -->
-                        <div class="faq-accordion" id="accordion">
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp">
-                                <h2 class="accordion-header" id="heading1">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                        1. Do you travel for destination weddings?
-                                    </button>
-                                </h2>
-                                <div id="collapse1" class="accordion-collapse collapse show" role="region" aria-labelledby="heading1" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>We recommend booking at least 3-6 months in advance to secure your preferred date, especially during peak wedding seasons.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                                <h2 class="accordion-header" id="heading2">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                        2. How far in advance should we book?
-                                    </button>
-                                </h2>
-                                <div id="collapse2" class="accordion-collapse collapse" role="region" aria-labelledby="heading2" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>We recommend booking at least 3-6 months in advance to secure your preferred date, especially during peak wedding seasons.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                                <h2 class="accordion-header" id="heading3">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                        3. What is included in your photography packages?
-                                    </button>
-                                </h2>
-                                <div id="collapse3" class="accordion-collapse collapse" role="region" aria-labelledby="heading3" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>We recommend booking at least 3-6 months in advance to secure your preferred date, especially during peak wedding seasons.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                                <h2 class="accordion-header" id="heading4">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                        4. How long does it take to deliver photos?
-                                    </button>
-                                </h2>
-                                <div id="collapse4" class="accordion-collapse collapse" role="region" aria-labelledby="heading4" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>We recommend booking at least 3-6 months in advance to secure your preferred date, especially during peak wedding seasons.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-                        </div>
-                        <!-- FAQ Accordion End -->
-                    </div>
-                    <!-- Faq Content End -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Our Faqs Section End -->
+    <!-- Our Wedding Gallery Section End -->
 
     <!-- Our Testimonials Section Start -->
     <div class="our-testimonials">
@@ -1051,140 +914,6 @@
         </div>
     </div>
     <!-- Cta Box Section End -->
-
-    <!-- Our Blog Section Start -->
-    <div class="our-blog">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-xl-6">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <span class="section-sub-title wow fadeInUp">Latest Blogs</span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Inspiration, tips & beautiful <span>wedding stories</span></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-
-                <div class="col-xl-6">
-                    <!-- Section Content Btn Start -->
-                    <div class="section-content-btn">
-                        <!-- Section Title Content Start -->
-                        <div class="section-title-content wow fadeInUp" data-wow-delay="0.2s">
-                            <p>Explore our latest articles filled with wedding inspiration, photography tips, and real love stories to help you plan and capture your perfect day.</p>
-                        </div>
-                        <!-- Section Title Content End -->
-
-                        <!-- Section Button Start -->
-                        <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a class="btn-default" href="blog.html">View All Blogs</a>
-                        </div>
-                        <!-- Section Button End -->
-                    </div>
-                    <!-- Section Content Btn End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xl-4 col-md-6">
-                    <!-- Post Item Start -->
-                    <div class="post-item wow fadeInUp">
-                        <!-- Post Featured Image Start-->
-                        <div class="post-featured-image">
-                            <a href="blog-single.html" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="images/post-1.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- Post Featured Image End -->
-
-                        <!-- Post Item Body Start -->
-                        <div class="post-item-body">
-                            <!-- Post Item Content Start -->
-                            <div class="post-item-content">
-                                <h2><a href="blog-single.html">How to Pose Naturally for Your Wedding Photos</a></h2>
-                            </div>
-                            <!-- Post Item Content End -->
-
-                            <!-- Post Item Button Start-->
-                            <div class="post-item-btn">
-                                <a href="blog-single.html" class="readmore-btn">read more</a>
-                            </div>
-                            <!-- Post Item Button End-->
-                        </div>
-                        <!-- Post Item Body End -->
-                    </div>
-                    <!-- Post Item End -->
-                </div>
-
-                <div class="col-xl-4 col-md-6">
-                    <!-- Post Item Start -->
-                    <div class="post-item wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Post Featured Image Start-->
-                        <div class="post-featured-image">
-                            <a href="blog-single.html" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="images/post-2.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- Post Featured Image End -->
-
-                        <!-- Post Item Body Start -->
-                        <div class="post-item-body">
-                            <!-- Post Item Content Start -->
-                            <div class="post-item-content">
-                                <h2><a href="blog-single.html">Best Locations for Destination Wedding Photography</a></h2>
-                            </div>
-                            <!-- Post Item Content End -->
-
-                            <!-- Post Item Button Start-->
-                            <div class="post-item-btn">
-                                <a href="blog-single.html" class="readmore-btn">read more</a>
-                            </div>
-                            <!-- Post Item Button End-->
-                        </div>
-                        <!-- Post Item Body End -->
-                    </div>
-                    <!-- Post Item End -->
-                </div>
-
-                <div class="col-xl-4 col-md-6">
-                    <!-- Post Item Start -->
-                    <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
-                        <!-- Post Featured Image Start-->
-                        <div class="post-featured-image">
-                            <a href="blog-single.html" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="images/post-3.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- Post Featured Image End -->
-
-                        <!-- Post Item Body Start -->
-                        <div class="post-item-body">
-                            <!-- Post Item Content Start -->
-                            <div class="post-item-content">
-                                <h2><a href="blog-single.html">Must Have Wedding Moments to Capture on Your Big Day</a></h2>
-                            </div>
-                            <!-- Post Item Content End -->
-
-                            <!-- Post Item Button Start-->
-                            <div class="post-item-btn">
-                                <a href="blog-single.html" class="readmore-btn">read more</a>
-                            </div>
-                            <!-- Post Item Button End-->
-                        </div>
-                        <!-- Post Item Body End -->
-                    </div>
-                    <!-- Post Item End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Blog Section End -->
-
 
     <?php
     $content = ob_get_clean();
