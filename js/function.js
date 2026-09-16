@@ -50,7 +50,8 @@
 		loop: true,
 		autoplay: {
 			delay: 4000,
-		}
+		},
+				// autoplay: false
 	});
 
 	/* Company Support Slider JS */

@@ -21,7 +21,13 @@
 
     <meta name="author" content="<?= htmlspecialchars($page_author) ?>">
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"> -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +45,7 @@
     <!-- Magnific Popup Core Css File -->
     <link rel="stylesheet" href="css/magnific-popup.css">
     <!-- Mouse Cursor Css File -->
-    <link rel="stylesheet" href="css/mousecursor.css">
+    <!-- <link rel="stylesheet" href="css/mousecursor.css"> -->
     <!-- Main Custom Css -->
     <link href="css/custom.css" rel="stylesheet" media="screen">
 </head>
@@ -47,12 +53,12 @@
 <body>
 
     <!-- Preloader Start -->
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="loading-container">
             <div class="loading"></div>
             <div id="loading-icon"><img src="images/loader.svg" alt=""></div>
         </div>
-    </div>
+    </div> -->
     <!-- Preloader End -->
 
     <!-- Header Start -->
@@ -90,7 +96,7 @@
     <script src="js/isotope.min.js"></script>
     <!-- MagicCursor js file -->
     <script src="js/gsap.min.js"></script>
-    <script src="js/magiccursor.js"></script>
+    <!-- <script src="js/magiccursor.js"></script> -->
     <!-- Text Effect js file -->
     <script src="js/SplitText.min.js"></script>
     <script src="js/ScrollTrigger.min.js"></script>
