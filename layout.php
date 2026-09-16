@@ -107,6 +107,13 @@
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
     <script src="https://demo.awaikenthemes.com/assets/js/theme-panel-dynamic.js"></script>
+    <script>
+        new WOW({
+            offset: 80,
+            mobile: true,
+            live: false
+        }).init();
+    </script>
 </body>
 
 </html>
