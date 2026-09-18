@@ -8,7 +8,7 @@
     ?>
 
     <!-- Hero Section Start -->
-    <div class="hero hero-slider-layout parallaxie">
+    <section class="hero hero-slider-layout parallaxie">
         <div class="hero-image-slider">
             <div class="swiper">
                 <div class="swiper-wrapper">
@@ -74,12 +74,6 @@
                                 high-impact events, branded films, corporate storytelling and
                                 digital content across Delhi-NCR and Pan India.
                             </p>
-                            <!-- <div class="hero-btns wow fadeInUp" data-wow-delay="0.3s">
-                             <a href="contact.html" class="btn-default">Start a Project</a>
-                             <a href="work.html" class="btn-outline">
-                                 View Our Work
-                             </a>
-                         </div> -->
                         </div>
                     </div>
                 </div>
@@ -130,7 +124,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Hero Section End -->
 
     <!-- About Us Section Start -->
@@ -376,7 +370,7 @@
                 <div class="col-xl-6">
                     <div class="package-video-content-box">
                         <div class="package-video-box">
-                            <img src="images/event-production-right.jpg" alt="Image" class="wow zoomIn" data-wow-delay="0.3s">
+                            <img src="images/resources/event-production-right.jpg" alt="Image" class="wow zoomIn" data-wow-delay="0.3s">
                         </div>
 
                         <div class="package-video-rating-box">
@@ -476,56 +470,74 @@
     </div>
     <!-- Why Choose Us Section End -->
 
-    <!-- Our Portfolio Section Start -->
-    <div class="our-portfolio">
+    <!-- Our Event Section Start -->
+    <section class="our-portfolio">
         <div class="container">
+
             <div class="row section-row">
                 <div class="col-lg-12">
                     <div class="section-title section-title-center">
-                        <span class="section-sub-title wow fadeInUp">PROJECT / EVENT </span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Selected Event & <span>Production Experience</span></h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">The following credentials are based on the portfolio information supplied by AMA Vision and previously developed
-                            company decks. Public web sources were used only to validate the existence and scale/context of named events;
-                            they do not independently verify AMA Vision's role in each project.</p>
+                        <span class="section-sub-title wow fadeInUp">PROJECT / EVENT</span>
+
+                        <h2 data-cursor="-opaque">
+                            Selected Event & <span>Production Experience</span>
+                        </h2>
+
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                            The following credentials are based on the portfolio information supplied by AMA Vision
+                            and previously developed company decks. Public web sources were used only to validate
+                            the existence and scale/context of named events; they do not independently verify
+                            AMA Vision's role in each project.
+                        </p>
                     </div>
                 </div>
             </div>
 
             <div class="row">
                 <?php foreach (array_slice($portfolio, 0, 6) as $index => $item): ?>
-                    <div class="col-xl-4 col-md-4 mb-4">
-                        <div class="portfolio-item wow fadeInUp" data-wow-delay="<?= '0.' . ($index % 3) . 's' ?>">
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="portfolio-item wow fadeInUp"
+                            data-wow-delay="<?= number_format(($index % 3) * 0.2, 1) ?>s">
+
                             <div class="portfolio-item-image">
-                                <figure>
-                                    <img src="<?= $item['image']; ?>"
-                                        alt="<?= htmlspecialchars($item['alt']); ?>"
-                                        loading="lazy">
+                                <figure class="mb-0">
+                                    <img src="<?= htmlspecialchars($item['image'], ENT_QUOTES, 'UTF-8') ?>"
+                                        alt="<?= htmlspecialchars($item['alt'], ENT_QUOTES, 'UTF-8') ?>"
+                                        class="img-fluid"
+                                        loading="lazy"
+                                        decoding="async">
                                 </figure>
                             </div>
+
                             <div class="portfolio-item-content">
-                                <ul>
-                                    <li><?= $item['category']; ?></li>
+                                <ul class="mb-2 list-unstyled">
+                                    <li><?= htmlspecialchars($item['category'], ENT_QUOTES, 'UTF-8') ?></li>
                                 </ul>
-                                <h2><?= $item['title']; ?></h2>
+
+                                <h3><?= htmlspecialchars($item['title'], ENT_QUOTES, 'UTF-8') ?></h3>
                             </div>
+
                         </div>
+
                     </div>
                 <?php endforeach; ?>
-
             </div>
+
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="section-footer-text wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="section-footer-text text-center wow fadeInUp" data-wow-delay="0.6s">
                         <p>
                             Ready to bring your vision to life?
-                            <a href="portfolio.html"> Explore our complete portfolio</a>
+                            <a href="events.php">Explore our complete portfolio</a>
                         </p>
                     </div>
                 </div>
             </div>
+
         </div>
-    </div>
-    <!-- Our Portfolio Section End -->
+    </section>
+    <!-- Our Event Section End -->
 
     <!-- Our Industries & Sectors Section Start -->
     <div class="industries-grid">
@@ -566,8 +578,8 @@
                 <div class="col-lg-8 mx-auto">
                     <div class="section-footer-text wow fadeInUp" data-wow-delay="0.6s">
                         <p>
-                            From government institutions to global brands, AMA Vision creates impactful content and production solutions across diverse industries.
-                            <a href="contact.html">Let's discuss your industry</a>
+                            Serving government, corporate, energy, retail, hospitality, FMCG, technology and more with end-to-end production solutions.
+                            <a href="contact.html">Explore All Sectors</a>
                         </p>
                     </div>
                 </div>
@@ -576,15 +588,17 @@
     </div>
     <!-- Our Industries & Sectors Section End -->
 
-    <!-- Our Wedding Gallery Section Start -->
+    <!-- Our Gallery Section Start -->
     <div class="our-wedding-gallery">
         <div class="container">
             <div class="row section-row">
                 <div class="col-lg-12">
                     <!-- Section Title Start -->
                     <div class="section-title section-title-center">
-                        <span class="section-sub-title wow fadeInUp">Wedding Gallery</span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Discover our stunning wedding <span>photography gallery</span></h2>
+                        <span class="section-sub-title wow fadeInUp">Our Gallery</span>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">
+                            Explore Our Creative <span><br>Production Gallery</span>
+                        </h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -607,8 +621,6 @@
                         <div class="gallery-card"><img src="images/gallery/gal-4.jpg"></div>
                         <div class="gallery-card"><img src="images/gallery/gal-5.jpg"></div>
                         <div class="gallery-card"><img src="images/gallery/gal-6.jpg"></div>
-
-
                     </div>
                 </div>
 
@@ -633,51 +645,50 @@
             </div>
         </div>
     </div>
-    <!-- Our Wedding Gallery Section End -->
+    <!-- Our Gallery Section End -->
 
     <!-- Our Testimonials Section Start -->
     <div class="our-testimonials">
         <div class="container">
             <div class="row section-row">
                 <div class="col-lg-12">
-                    <!-- Section Title Start -->
                     <div class="section-title section-title-center">
-                        <span class="section-sub-title wow fadeInUp">Testimonials</span>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Client love and <span>happy moments</span></h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">We are grateful to be part of so many beautiful love stories. Every smile, every emotion, and every heartfelt moment shared by our clients reflects the trust.</p>
+                        <span class="section-sub-title wow fadeInUp">Client Testimonials</span>
+
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">
+                            Trusted by Brands, <span>Built on Results</span>
+                        </h2>
+
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                            From corporate events to branded productions, our clients trust us to deliver creative ideas, seamless execution and impactful content that leaves a lasting impression.
+                        </p>
                     </div>
-                    <!-- Section Title End -->
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Testimonial Slider Start -->
                     <div class="testimonial-slider">
                         <div class="swiper">
                             <div class="swiper-wrapper" data-cursor-text="Drag">
-                                <!-- Testimonial Slide Start -->
                                 <div class="swiper-slide">
-                                    <!-- Testimonial Item Start -->
                                     <div class="testimonial-item">
-                                        <!-- Testimonials Item Author Start -->
                                         <div class="testimonial-item-author">
                                             <div class="testimonial-item-author-image">
                                                 <figure class="image-anime">
-                                                    <img src="images/author-1.jpg" alt="">
+                                                    <img src="images/resources/user-icon.png" alt="">
                                                 </figure>
                                             </div>
                                             <div class="testimonial-item-author-content">
-                                                <h2>Neha & Rahul Joshi</h2>
-                                                <p>Happy Couple</p>
+                                                <h2>Rohan Mehta</h2>
+                                                <p>Marketing Head</p>
                                             </div>
                                         </div>
-                                        <!-- Testimonials Item Author End -->
 
-                                        <!-- Testimonials Item Body Start -->
                                         <div class="testimonial-item-body">
+
                                             <div class="testimonial-item-content">
-                                                <p>“We couldn't have asked for photographers. They made us feel comfortable captured everything simply perfect beautifully!”</p>
+                                                <p>“AMA Vision handled our production flawlessly. Their team stayed proactive, delivered on time and made every moment feel professionally executed throughout.”</p>
                                             </div>
                                             <div class="testimonial-item-rating">
                                                 <i class="fa fa-solid fa-star"></i>
@@ -687,40 +698,28 @@
                                                 <i class="fa fa-solid fa-star"></i>
                                             </div>
                                         </div>
-                                        <!-- Testimonials Item Body End -->
 
-                                        <!-- Testimonial Item Quote Start -->
                                         <div class="testimonial-item-quote">
                                             <img src="images/icon-quote-accent.svg" alt="">
                                         </div>
-                                        <!-- Testimonial Item Quote Image End -->
                                     </div>
-                                    <!-- Testimonial Item End -->
                                 </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
                                 <div class="swiper-slide">
-                                    <!-- Testimonial Item Start -->
                                     <div class="testimonial-item">
-                                        <!-- Testimonials Item Author Start -->
                                         <div class="testimonial-item-author">
                                             <div class="testimonial-item-author-image">
                                                 <figure class="image-anime">
-                                                    <img src="images/author-2.jpg" alt="">
+                                                    <img src="images/resources/user-icon.png" alt="">
                                                 </figure>
                                             </div>
                                             <div class="testimonial-item-author-content">
-                                                <h2>Vikram & Sneha Trivedi</h2>
-                                                <p>Married Couple</p>
+                                                <h2>Priya Kapoor</h2>
+                                                <p>Event Manager</p>
                                             </div>
                                         </div>
-                                        <!-- Testimonials Item Author End -->
-
-                                        <!-- Testimonials Item Body Start -->
                                         <div class="testimonial-item-body">
                                             <div class="testimonial-item-content">
-                                                <p>“We couldn't have asked for photographers. They made us feel comfortable captured everything simply perfect beautifully!”</p>
+                                                <p>“From planning to execution, every detail was managed with precision. The final content exceeded expectations and captured our event perfectly.”</p>
                                             </div>
                                             <div class="testimonial-item-rating">
                                                 <i class="fa fa-solid fa-star"></i>
@@ -730,40 +729,29 @@
                                                 <i class="fa fa-solid fa-star"></i>
                                             </div>
                                         </div>
-                                        <!-- Testimonials Item Body End -->
-
-                                        <!-- Testimonial Item Quote Start -->
                                         <div class="testimonial-item-quote">
                                             <img src="images/icon-quote-accent.svg" alt="">
                                         </div>
-                                        <!-- Testimonial Item Quote Image End -->
                                     </div>
-                                    <!-- Testimonial Item End -->
                                 </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
                                 <div class="swiper-slide">
-                                    <!-- Testimonial Item Start -->
                                     <div class="testimonial-item">
-                                        <!-- Testimonials Item Author Start -->
                                         <div class="testimonial-item-author">
                                             <div class="testimonial-item-author-image">
                                                 <figure class="image-anime">
-                                                    <img src="images/author-3.jpg" alt="">
+                                                    <img src="images/resources/user-icon.png" alt="">
                                                 </figure>
                                             </div>
                                             <div class="testimonial-item-author-content">
-                                                <h2>Riya & Aarav Patel</h2>
-                                                <p>Wedding Clients</p>
+                                                <h2>Arjun Malhotra</h2>
+                                                <p>Brand Lead</p>
                                             </div>
                                         </div>
-                                        <!-- Testimonials Item Author End -->
 
-                                        <!-- Testimonials Item Body Start -->
                                         <div class="testimonial-item-body">
+
                                             <div class="testimonial-item-content">
-                                                <p>“We couldn't have asked for photographers. They made us feel comfortable captured everything simply perfect beautifully!”</p>
+                                                <p>“The creative direction and production quality impressed our entire team. They transformed our vision into content that truly stood out.”</p>
                                             </div>
                                             <div class="testimonial-item-rating">
                                                 <i class="fa fa-solid fa-star"></i>
@@ -773,40 +761,28 @@
                                                 <i class="fa fa-solid fa-star"></i>
                                             </div>
                                         </div>
-                                        <!-- Testimonials Item Body End -->
 
-                                        <!-- Testimonial Item Quote Start -->
                                         <div class="testimonial-item-quote">
                                             <img src="images/icon-quote-accent.svg" alt="">
                                         </div>
-                                        <!-- Testimonial Item Quote Image End -->
                                     </div>
-                                    <!-- Testimonial Item End -->
                                 </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
                                 <div class="swiper-slide">
-                                    <!-- Testimonial Item Start -->
                                     <div class="testimonial-item">
-                                        <!-- Testimonials Item Author Start -->
                                         <div class="testimonial-item-author">
                                             <div class="testimonial-item-author-image">
                                                 <figure class="image-anime">
-                                                    <img src="images/author-4.jpg" alt="">
+                                                    <img src="images/resources/user-icon.png" alt="">
                                                 </figure>
                                             </div>
                                             <div class="testimonial-item-author-content">
-                                                <h2>Aarav & Priya Sharma</h2>
-                                                <p>Just Married</p>
+                                                <h2>Sneha Verma</h2>
+                                                <p>Corporate Client</p>
                                             </div>
                                         </div>
-                                        <!-- Testimonials Item Author End -->
-
-                                        <!-- Testimonials Item Body Start -->
                                         <div class="testimonial-item-body">
                                             <div class="testimonial-item-content">
-                                                <p>“We couldn't have asked for photographers. They made us feel comfortable captured everything simply perfect beautifully!”</p>
+                                                <p>“Their crew coordinated everything seamlessly under pressure. The event looked outstanding and the delivered visuals reflected exceptional professionalism throughout.”</p>
                                             </div>
                                             <div class="testimonial-item-rating">
                                                 <i class="fa fa-solid fa-star"></i>
@@ -816,99 +792,126 @@
                                                 <i class="fa fa-solid fa-star"></i>
                                             </div>
                                         </div>
-                                        <!-- Testimonials Item Body End -->
-
-                                        <!-- Testimonial Item Quote Start -->
                                         <div class="testimonial-item-quote">
                                             <img src="images/icon-quote-accent.svg" alt="">
                                         </div>
-                                        <!-- Testimonial Item Quote Image End -->
                                     </div>
-                                    <!-- Testimonial Item End -->
                                 </div>
-                                <!-- Testimonial Slide End -->
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-author">
+                                            <div class="testimonial-item-author-image">
+                                                <figure class="image-anime">
+                                                    <img src="images/resources/user-icon.png" alt="">
+                                                </figure>
+                                            </div>
+                                            <div class="testimonial-item-author-content">
+                                                <h2>Karan Bhatia</h2>
+                                                <p>Business Partner</p>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-item-body">
+                                            <div class="testimonial-item-content">
+                                                <p>“Working with AMA Vision was effortless. Their commitment, creativity and fast delivery made our campaign feel polished from start to finish.”</p>
+                                            </div>
+                                            <div class="testimonial-item-rating">
+                                                <i class="fa fa-solid fa-star"></i>
+                                                <i class="fa fa-solid fa-star"></i>
+                                                <i class="fa fa-solid fa-star"></i>
+                                                <i class="fa fa-solid fa-star"></i>
+                                                <i class="fa fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="testimonial-item-quote">
+                                            <img src="images/icon-quote-accent.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Testimonial Slider Start -->
-                </div>
-
-                <div class="col-lg-12">
-                    <!-- Section Footer Text Start -->
-                    <div class="section-footer-text wow fadeInUp" data-wow-delay="0.2s">
-                        <p><span>Free</span>Let's connect and make your wedding moments truly unforgettable - <a href="testimonials.html">View all reviews.</a></p>
-                    </div>
-                    <!-- Section Footer Text End -->
                 </div>
             </div>
         </div>
     </div>
     <!-- Our Testimonials Section End -->
 
+    <!-- Brand Gallery Section Start -->
+    <div class="brand-gallery">
+        <div class="container">
+
+            <div class="row section-row">
+                <div class="col-lg-12">
+                    <div class="section-title section-title-center">
+                        <span class="section-sub-title wow fadeInUp">
+                            Client & Brand Portfolio
+                        </span>
+                        <h2 class="text-anime-style-2">
+                            Brands We Have <span>Worked With</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="brand-gallery-wrapper">
+
+                <?php foreach ($rows as $index => $images): ?>
+
+                    <div class="brand-gallery-marquee <?= $index != 2 ? 'mb-4' : '' ?>">
+                        <div class="brand-gallery-track <?= ($index % 2 == 0) ? 'brand-scroll-right' : 'brand-scroll-left'; ?>">
+
+                            <?php foreach ($images as $img): ?>
+                                <div class="brand-gallery-card">
+                                    <img src="<?= $img; ?>" loading="lazy" alt="Client Portfolio">
+                                </div>
+                            <?php endforeach; ?>
+
+                            <!-- Duplicate for seamless infinite loop -->
+                            <?php foreach ($images as $img): ?>
+                                <div class="brand-gallery-card">
+                                    <img src="<?= $img; ?>" loading="lazy" alt="Client Portfolio">
+                                </div>
+                            <?php endforeach; ?>
+
+                        </div>
+                    </div>
+
+                <?php endforeach; ?>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Brand Gallery Section End -->
+
     <!-- Cta Box Section Start -->
     <div class="cta-box parallaxie">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <!-- Cta Box Content Start -->
                     <div class="cta-box-content">
-                        <!-- Section Title Start -->
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Contact Us Today</span>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Preserve your wedding moments with <span>stunning photography today</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Your wedding day is filled with once-in-a-lifetime moments that deserve to be captured with care and creativity. Our expert team is dedicated to preserving every emotion.</p>
+                            <span class="section-sub-title wow fadeInUp">Start Your Next Production</span>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">
+                                Turn your vision into <span><br>flawless execution today</span>
+                            </h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                From corporate events and government projects to brand films and live productions, our team delivers seamless execution and impactful content across every stage.
+                            </p>
                         </div>
-                        <!-- Section Title End -->
-
-                        <!-- Cta Contact List Start -->
                         <div class="cta-contact-list wow fadeInUp" data-wow-delay="0.4s">
                             <ul>
-                                <li>Get Your Quote or Call : <a href="tel:123456789">(123) 456 789</a></li>
+                                <li>Let's Build Your Next Project : <a href="tel:+919876543210">+91 98765 43210</a></li>
                             </ul>
                         </div>
-                        <!-- Cta Contact List End -->
-
-                        <!-- Cta Content Footer Start -->
                         <div class="cta-content-footer wow fadeInUp" data-wow-delay="0.6s">
-                            <!-- Cta Content Button Start -->
                             <div class="cta-content-btn">
-                                <a href="contact.html" class="btn-default">Book Consultation</a>
+                                <a href="contact.html" class="btn-default">Start Your Project</a>
                             </div>
-                            <!-- Cta Content Button End -->
-
-                            <!-- Cta Client Box Start -->
-                            <div class="cta-client-box">
-                                <!-- Satisfy Client Image Start -->
-                                <div class="satisfy-client-images">
-                                    <div class="satisfy-client-image">
-                                        <figure class="image-anime">
-                                            <img src="images/author-1.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="satisfy-client-image">
-                                        <figure class="image-anime">
-                                            <img src="images/author-2.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="satisfy-client-image">
-                                        <figure class="image-anime">
-                                            <img src="images/author-3.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                </div>
-                                <!-- Satisfy Client Image End -->
-
-                                <!-- Cta Client Content Start -->
-                                <div class="cta-client-content">
-                                    <p>“5K+ Client satisfaction rate with our great results.</p>
-                                </div>
-                                <!-- Cta Client Content End -->
-                            </div>
-                            <!-- Cta Client Box End -->
                         </div>
-                        <!-- Cta Content Footer End -->
                     </div>
-                    <!-- Cta Box Content End -->
                 </div>
             </div>
         </div>

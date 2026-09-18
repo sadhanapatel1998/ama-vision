@@ -39,20 +39,19 @@ $services = [
 ];
 
 
-$portfolio = [
-    ["title" => "G20 Summit", "category" => "Government Summit", "image" => "images/portfolio/g20.jpg", "alt" => "G20 Summit"],
-    ["title" => "India Energy Week 2024", "category" => "Energy Ecosystem", "image" => "images/portfolio/iew-2024.jpg", "alt" => "India Energy Week 2024"],
-    ["title" => "India Energy Week 2025", "category" => "Corporate Event", "image" => "images/portfolio/iew-2025.jpg", "alt" => "India Energy Week 2025"],
-    ["title" => "India Energy Week 2026", "category" => "Global Industry", "image" => "images/portfolio/iew-2026.jpg", "alt" => "India Energy Week 2026"],
-    ["title" => "GRIDCON 2025", "category" => "Power Conference", "image" => "images/portfolio/gridcon.jpg", "alt" => "GRIDCON 2025"],
-    ["title" => "EXL Corporate Event", "category" => "Corporate Leadership", "image" => "images/portfolio/exl.jpg", "alt" => "EXL Corporate Event"],
-    ["title" => "Times Black × ICICI Bank", "category" => "Luxury Experience", "image" => "images/portfolio/red-fort.jpg", "alt" => "Times Black × ICICI Bank"],
-    ["title" => "BRICS", "category" => "International Event", "image" => "images/portfolio/brics.jpg", "alt" => "BRICS"],
-    ["title" => "Indus Food", "category" => "Trade Exhibition", "image" => "images/portfolio/indus-food.jpg", "alt" => "Indus Food"],
-    ["title" => "DLF CyberHub", "category" => "Retail Activation", "image" => "images/portfolio/dlf.jpg", "alt" => "DLF CyberHub"],
-    ["title" => "India Expo", "category" => "Event Production", "image" => "images/portfolio/india-expo.jpg", "alt" => "India Expo"],
-];
-
+    $portfolio = [
+        ["title" => "G20 Summit", "category" => "Government Summit", "image" => "images/portfolio/g20.jpg", "alt" => "G20 Summit"],
+        ["title" => "India Energy Week 2024", "category" => "Energy Ecosystem", "image" => "images/portfolio/iew-2024.jpg", "alt" => "India Energy Week 2024"],
+        ["title" => "India Energy Week 2025", "category" => "Corporate Event", "image" => "images/portfolio/iew-2025.jpg", "alt" => "India Energy Week 2025"],
+        ["title" => "India Energy Week 2026", "category" => "Global Industry", "image" => "images/portfolio/iew-2026.jpg", "alt" => "India Energy Week 2026"],
+        ["title" => "GRIDCON 2025", "category" => "Power Conference", "image" => "images/portfolio/gridcon.jpg", "alt" => "GRIDCON 2025"],
+        ["title" => "EXL Corporate Event", "category" => "Corporate Leadership", "image" => "images/portfolio/exl.jpg", "alt" => "EXL Corporate Event"],
+        ["title" => "Times Black × ICICI Bank", "category" => "Luxury Experience", "image" => "images/portfolio/red-fort.jpg", "alt" => "Times Black × ICICI Bank"],
+        ["title" => "BRICS", "category" => "International Event", "image" => "images/portfolio/brics.jpg", "alt" => "BRICS"],
+        ["title" => "Indus Food", "category" => "Trade Exhibition", "image" => "images/portfolio/indus-food.jpg", "alt" => "Indus Food"],
+        ["title" => "DLF CyberHub", "category" => "Retail Activation", "image" => "images/portfolio/dlf.jpg", "alt" => "DLF CyberHub"],
+        ["title" => "India Expo", "category" => "Event Production", "image" => "images/portfolio/india-expo.jpg", "alt" => "India Expo"],
+    ];
 
 
 $industries = [
@@ -134,6 +133,68 @@ $industries = [
         "alt" => "Entertainment"
     ]
 ];
+
+
+$clientPortfolio = [
+    "images/brand-logo/1.png",
+    "images/brand-logo/2.png",
+    "images/brand-logo/3.png",
+    "images/brand-logo/4.png",
+    "images/brand-logo/5.png",
+    "images/brand-logo/6.png",
+    "images/brand-logo/7.png",
+    "images/brand-logo/8.png",
+    "images/brand-logo/9.png",
+    "images/brand-logo/10.png",
+    "images/brand-logo/11.png",
+    "images/brand-logo/12.png",
+    "images/brand-logo/13.png",
+    "images/brand-logo/14.png",
+    "images/brand-logo/15.png",
+    "images/brand-logo/16.png",
+    "images/brand-logo/17.png",
+    "images/brand-logo/18.png",
+    "images/brand-logo/19.png",
+    "images/brand-logo/20.png",
+    "images/brand-logo/21.png",
+    "images/brand-logo/22.png",
+    "images/brand-logo/23.png",
+    "images/brand-logo/24.png",
+    "images/brand-logo/25.png",
+    "images/brand-logo/26.png",
+    "images/brand-logo/27.png",
+    "images/brand-logo/28.png",
+    "images/brand-logo/29.png",
+    "images/brand-logo/30.png",
+    "images/brand-logo/31.png",
+    "images/brand-logo/32.png",
+    "images/brand-logo/33.png",
+    "images/brand-logo/34.png",
+    "images/brand-logo/35.png",
+    "images/brand-logo/36.png",
+    "images/brand-logo/37.png",
+    "images/brand-logo/38.png",
+    "images/brand-logo/39.png",
+    "images/brand-logo/40.png",
+    "images/brand-logo/41.png",
+    "images/brand-logo/42.png",
+    "images/brand-logo/43.png",
+    "images/brand-logo/44.png",
+    "images/brand-logo/45.png",
+    "images/brand-logo/46.png",
+    "images/brand-logo/47.png",
+    "images/brand-logo/48.png",
+    "images/brand-logo/49.png",
+    "images/brand-logo/50.png",
+    "images/brand-logo/51.png",
+    "images/brand-logo/52.png",
+    "images/brand-logo/53.png",
+    "images/brand-logo/54.png",
+    "images/brand-logo/55.png",
+    "images/brand-logo/56.png",
+];
+
+$rows = array_chunk($clientPortfolio, ceil(count($clientPortfolio) / 3));
 
 
 

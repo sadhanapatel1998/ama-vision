@@ -84,13 +84,14 @@
 			loop: true,
 			autoplay: {
 				delay: 5000,
-			},			
+			},
+			// autoplay:false,			
 			breakpoints: {
 				768:{
 					slidesPerView: 2,
 				},
 				1025:{
-					slidesPerView: 3,
+					slidesPerView: 4,
 				},
 			}
 		});
