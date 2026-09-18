@@ -171,10 +171,6 @@
                                 <strong>AMA Vision is an integrated creative production company based in Delhi-NCR with Pan-India execution capability.</strong>
                                 The company works across visual storytelling, event production, branded content, digital media and end-to-end production. The core proposition is simple: bring creative thinking and real-world production execution together under one accountable team.
                             </p>
-                            <!--
-                         <p class="wow fadeInUp" data-wow-delay="0.3s">
-                             With <strong>more than four years of production experience</strong>, AMA Vision has built experience across government and public-sector environments, energy and infrastructure, corporate events, branded experiences, fashion and lifestyle, hospitality, retail, education, real estate, FMCG, technology and entertainment.
-                         </p> -->
                         </div>
                         <div class="about-us-body">
                             <div class="about-us-body-content wow fadeInUp" data-wow-delay="0.4s">
@@ -184,14 +180,9 @@
                                         One partner. One workflow. One accountable team — from idea and planning to production, post-production, delivery and content distribution.
                                     </p>
                                 </div>
-                                <!-- <div class="about-one-liner">
-                                 <h4>Recommended Website One-liner</h4>
-                                 <p>
-                                     <strong>AMA Vision turns ideas into high-impact productions, experiences and content — from concept to execution.</strong>
-                                 </p>
-                             </div> -->
+
                                 <div class="about-body-btn">
-                                    <a href="about.html" class="btn-default">Know More</a>
+                                    <a href="about-us.php" class="btn-default">Know More</a>
                                 </div>
                             </div>
                             <div class="about-us-counter-box">
@@ -440,9 +431,9 @@
                     <div class="why-choose-us-box box-1 wow fadeInUp">
                         <div class="why-choose-us-box-content section-sub-heading">
                             <h3 class="mb-3">EVENT CONTENT</h3>
-                            <span class="section-sub-title wow fadeInUp">Live coverage</span><br>
-                            <span class="section-sub-title wow fadeInUp">Same-day edits</span><br>
-                            <span class="section-sub-title wow fadeInUp">Recap films</span><br>
+                            <span class="section-sub-title wow fadeInUp">Live coverage</span>
+                            <span class="section-sub-title wow fadeInUp">Same-day edits</span>
+                            <span class="section-sub-title wow fadeInUp">Recap films</span>
                             <span class="section-sub-title wow fadeInUp">Photography & BTS</span>
                         </div>
                         <div class="why-choose-item-image">
@@ -458,7 +449,15 @@
                         <div class="why-choose-highlighted-content">
                             <h3 class="text-center">Recommended content pipeline</h3>
                             <figure>
-                                <img src="images/bg-img.png" class="rounded mt-3 mb-3" alt="">
+                                <!-- Desktop Image -->
+                                <img src="images/resources/desktop-content-pipeline.png"
+                                    class="img-fluid rounded mt-3 mb-3 d-none d-lg-block"
+                                    alt="Content Pipeline Desktop">
+
+                                <!-- Mobile & Tablet Image -->
+                                <img src="images/resources/mobile-content-pipeline.jpg"
+                                    class="img-fluid rounded mt-3 mb-3 d-block d-lg-none"
+                                    alt="Content Pipeline Mobile">
                             </figure>
                             <p class="text-center">The website should communicate that AMA Vision can build a reusable content library from one production: hero
                                 film, event film, reels, interviews, BTS, photography, social edits and cut-downs.</p>
@@ -571,6 +570,7 @@
                                 <p><?= $item['description']; ?></p>
                             </div>
                         </div>
+
                     </div>
                 <?php endforeach; ?>
             </div>
@@ -579,7 +579,7 @@
                     <div class="section-footer-text wow fadeInUp" data-wow-delay="0.6s">
                         <p>
                             Serving government, corporate, energy, retail, hospitality, FMCG, technology and more with end-to-end production solutions.
-                            <a href="contact.html">Explore All Sectors</a>
+                            <a href="industries.php">Explore All Sectors</a>
                         </p>
                     </div>
                 </div>
@@ -838,10 +838,9 @@
     </div>
     <!-- Our Testimonials Section End -->
 
-    <!-- Brand Gallery Section Start -->
+    <!-- Brand Section Start -->
     <div class="brand-gallery">
         <div class="container">
-
             <div class="row section-row">
                 <div class="col-lg-12">
                     <div class="section-title section-title-center">
@@ -858,16 +857,13 @@
             <div class="brand-gallery-wrapper">
 
                 <?php foreach ($rows as $index => $images): ?>
-
                     <div class="brand-gallery-marquee <?= $index != 2 ? 'mb-4' : '' ?>">
                         <div class="brand-gallery-track <?= ($index % 2 == 0) ? 'brand-scroll-right' : 'brand-scroll-left'; ?>">
-
                             <?php foreach ($images as $img): ?>
                                 <div class="brand-gallery-card">
                                     <img src="<?= $img; ?>" loading="lazy" alt="Client Portfolio">
                                 </div>
                             <?php endforeach; ?>
-
                             <!-- Duplicate for seamless infinite loop -->
                             <?php foreach ($images as $img): ?>
                                 <div class="brand-gallery-card">
@@ -884,7 +880,7 @@
 
         </div>
     </div>
-    <!-- Brand Gallery Section End -->
+    <!-- Brand Section End -->
 
     <!-- Cta Box Section Start -->
     <div class="cta-box parallaxie">
@@ -908,7 +904,7 @@
                         </div>
                         <div class="cta-content-footer wow fadeInUp" data-wow-delay="0.6s">
                             <div class="cta-content-btn">
-                                <a href="contact.html" class="btn-default">Start Your Project</a>
+                                <a href="contact-us.php" class="btn-default">Start Your Project</a>
                             </div>
                         </div>
                     </div>

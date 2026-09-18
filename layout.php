@@ -53,12 +53,12 @@
 <body>
 
     <!-- Preloader Start -->
-    <!-- <div class="preloader">
+    <div class="preloader">
         <div class="loading-container">
             <div class="loading"></div>
             <div id="loading-icon"><img src="images/loader.svg" alt=""></div>
         </div>
-    </div> -->
+    </div>
     <!-- Preloader End -->
 
     <!-- Header Start -->
@@ -106,7 +106,6 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
-    <script src="https://demo.awaikenthemes.com/assets/js/theme-panel-dynamic.js"></script>
     <script>
         new WOW({
             offset: 80,

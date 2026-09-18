@@ -19,7 +19,7 @@ $services = [
         "desc"  => "Cinematic films, photography and social-first content that strengthens brand presence."
     ],
     [
-        "title" => "Post-Production",
+        "title" => "Post Production",
         "image" => "images/services/post-production.jpg",
         "link"  => "post-production.php",
         "desc"  => "Editing, motion graphics and color grading with fast, professional delivery."

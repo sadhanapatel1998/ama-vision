@@ -20,7 +20,7 @@
                             </li>
 
                             <li class="nav-item submenu">
-                                <a class="nav-link" href="services.php">Our Services</a>
+                                <a class="nav-link" href="javascript:void(0)">Our Services</a>
                                 <ul>
                                     <li><a class="nav-link" href="event-production-execution.php">Event Production & Execution</a></li>
                                     <li><a class="nav-link" href="creative-production.php">Creative Production</a></li>
@@ -33,10 +33,10 @@
 
                             <!-- Combined Work Menu -->
                             <li class="nav-item submenu">
-                                <a class="nav-link" href="work.php">Work</a>
+                                <a class="nav-link" href="javascript:void(0)">Work</a>
                                 <ul>
                                     <li><a class="nav-link" href="events.php">Events</a></li>
-                                    <li><a class="nav-link" href="work.php">Case Studies</a></li>
+                                    <li><a class="nav-link" href="work.php">Work / Case Studies</a></li>
                                     <li><a class="nav-link" href="experiences.php">Experiences</a></li>
                                 </ul>
                             </li>
@@ -47,9 +47,9 @@
 
                             <!-- Combined Content Menu -->
                             <li class="nav-item submenu">
-                                <a class="nav-link" href="content-digital.php">Content</a>
+                                <a class="nav-link" href="javascript:void(0)">Content</a>
                                 <ul>
-                                    <li><a class="nav-link" href="content-digital.php">Content & Digital</a></li>
+                                    <li><a class="nav-link" href="content-digital.php">Content / Digital</a></li>
                                     <li><a class="nav-link" href="clients.php">Clients</a></li>
                                 </ul>
                             </li>

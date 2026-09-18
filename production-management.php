@@ -10,12 +10,12 @@
          <div class="row">
              <div class="col-lg-12">
                  <div class="page-header-box">
-                     <h1 class="text-anime-style-2" data-cursor="-opaque">Event Production & <span> Execution</span>
+                     <h1 class="text-anime-style-2" data-cursor="-opaque">Production <span> Management</span>
                      </h1>
                      <nav class="wow fadeInUp">
                          <ol class="breadcrumb">
                              <li class="breadcrumb-item"><a href="./">Home</a></li>
-                             <li class="breadcrumb-item active" aria-current="page">Event Production & Execution</li>
+                             <li class="breadcrumb-item active" aria-current="page">Production Management</li>
                          </ol>
                      </nav>
                  </div>
@@ -34,48 +34,52 @@
 
              <div class="col-lg-8 order-1 order-md-2">
                  <div class="service-single-content">
+
                      <div class="page-single-image">
                          <figure class="image-anime reveal">
-                             <img src="images/services/event-production-execution.jpg" alt="">
+                             <img src="images/services/production-management.jpg" alt="Production Management">
                          </figure>
                      </div>
+
                      <div class="service-entry">
+
                          <p class="wow fadeInUp">
-                             AMA Vision delivers execution-led event production with one accountable team managing every stage—from planning and logistics to stage setup, live execution and content creation. We handle corporate conferences, government events, summits, exhibitions, product launches and award ceremonies with seamless coordination.
+                             AMA Vision delivers end-to-end production management that keeps every project organized, efficient and execution-ready from planning to final delivery. We coordinate people, equipment, vendors and logistics to ensure productions run smoothly at every stage.
                          </p>
 
                          <p class="wow fadeInUp" data-wow-delay="0.2s">
-                             Our expertise covers AV production, lighting, décor, crew management, vendor coordination and live event coverage. Combined with photography, videography and same-day edits, we ensure every event creates lasting impact beyond the venue.
+                             Our team combines disciplined planning with on-ground supervision to manage schedules, locations and production workflows with precision. Every detail is monitored to maintain quality, timelines and seamless execution across projects of every scale.
                          </p>
 
                          <div class="service-why-choose-box">
                              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                                 Event Production & <span>Execution</span>
+                                 Production <span>Management</span>
                              </h2>
+
                              <p class="wow fadeInUp">
-                                 Comprehensive event production services designed to manage planning, execution, logistics and live content under one experienced team.
+                                 Complete production management services designed to streamline planning, coordination and execution with one accountable team.
                              </p>
 
                              <div class="service-why-choose-list wow fadeInUp" data-wow-delay="0.2s">
                                  <ul>
-                                     <li>Corporate Events & Conferences</li>
-                                     <li>Government & Public-Sector Events</li>
-                                     <li>Summits, Conclaves & Institutional Events</li>
-                                     <li>Exhibitions, Trade Shows & Pavilions</li>
-                                     <li>Product Launches & Brand Launches</li>
-                                     <li>Award Ceremonies & Recognition Events</li>
-                                     <li>Experiential Events & Branded Experiences</li>
-                                     <li>Live Event Coverage & Show-Day Content</li>
-                                     <li>Stage, AV, Décor, Manpower & Production Coordination</li>
-                                     <li>On-Ground Vendor & Logistics Coordination</li>
+                                     <li>End-to-End Project Management</li>
+                                     <li>Crew Planning & Management</li>
+                                     <li>Equipment Planning</li>
+                                     <li>Location & Logistics Coordination</li>
+                                     <li>Vendor Coordination</li>
+                                     <li>Run-of-Show Support</li>
+                                     <li>On-Ground Production Supervision</li>
+                                     <li>Quality Control & Final Delivery</li>
                                  </ul>
                              </div>
                          </div>
 
-                        <?php include('include/service-offer-box.php'); ?>
+                         <?php include('include/service-offer-box.php'); ?>
 
                      </div>
+
                      <div class="page-single-faqs">
+
                          <div class="section-title">
                              <h2 class="text-anime-style-2" data-cursor="-opaque">
                                  Frequently Asked <span>Questions</span>
@@ -90,12 +94,13 @@
                                          data-bs-toggle="collapse"
                                          data-bs-target="#collapse1"
                                          aria-expanded="true">
-                                         1. Do you handle end-to-end event production?
+                                         1. What does Production Management include?
                                      </button>
                                  </h2>
+
                                  <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordion">
                                      <div class="accordion-body">
-                                         <p>Yes, we manage planning, production, logistics, execution and event content under one accountable team.</p>
+                                         <p>Our production management includes project planning, crew coordination, equipment management, logistics, vendor supervision and quality control from start to finish.</p>
                                      </div>
                                  </div>
                              </div>
@@ -105,12 +110,13 @@
                                      <button class="accordion-button collapsed" type="button"
                                          data-bs-toggle="collapse"
                                          data-bs-target="#collapse2">
-                                         2. Do you execute events across India?
+                                         2. Do you manage vendors and logistics?
                                      </button>
                                  </h2>
+
                                  <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                      <div class="accordion-body">
-                                         <p>Yes, AMA Vision operates from Delhi-NCR with Pan-India execution capability for events of different scales.</p>
+                                         <p>Yes, we coordinate vendors, locations, transportation and production logistics to ensure smooth execution without operational delays.</p>
                                      </div>
                                  </div>
                              </div>
@@ -120,12 +126,13 @@
                                      <button class="accordion-button collapsed" type="button"
                                          data-bs-toggle="collapse"
                                          data-bs-target="#collapse3">
-                                         3. Which types of events do you produce?
+                                         3. Can you supervise production on-site?
                                      </button>
                                  </h2>
+
                                  <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                      <div class="accordion-body">
-                                         <p>We produce corporate events, government events, summits, exhibitions, product launches, award ceremonies and experiential activations.</p>
+                                         <p>Absolutely. Our team provides on-ground production supervision, run-of-show support and real-time coordination throughout the event or shoot.</p>
                                      </div>
                                  </div>
                              </div>
@@ -135,18 +142,21 @@
                                      <button class="accordion-button collapsed" type="button"
                                          data-bs-toggle="collapse"
                                          data-bs-target="#collapse4">
-                                         4. Do you provide live event coverage?
+                                         4. How do you ensure quality and timely delivery?
                                      </button>
                                  </h2>
+
                                  <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                      <div class="accordion-body">
-                                         <p>Yes, we provide live event coverage, show-day content, photography, videography and same-day edits when required.</p>
+                                         <p>We follow structured planning, continuous supervision and final quality checks to ensure every project is delivered on schedule and meets production standards.</p>
                                      </div>
                                  </div>
                              </div>
 
                          </div>
+
                      </div>
+
                  </div>
              </div>
          </div>

@@ -115,7 +115,7 @@
                                  </div>
 
                                  <div class="col-md-12">
-                                     <button type="submit" class="btn-default disabled">submit Message</button>
+                                     <button type="submit" class="btn-default disabled">Submit</button>
                                      <div id="msgSubmit" class="h3 hidden"></div>
                                  </div>
                              </div>

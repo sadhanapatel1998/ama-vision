@@ -59,8 +59,9 @@
                         <ul>
                             <li><a href="index.php">Home</a></li>
                             <li><a href="about-us.php">About Us</a></li>
-                            <li><a href="services.php">Services</a></li>
-                            <li><a href="work.php">Work</a></li>
+                            <li><a href="events.php">Events</a></li>
+                            <li><a href="work.php">Work / Case Studies</a></li>
+                            <li><a href="experiences.php">Experiences</a></li>
                             <li><a href="contact-us.php">Contact Us</a></li>
                         </ul>
                     </div>
@@ -70,12 +71,12 @@
                     <div class="footer-links">
                         <h2>Our Services</h2>
                         <ul>
-                            <li><a class="nav-link" href="event-production-execution.php">Event Production & Execution</a></li>
-                            <li><a class="nav-link" href="creative-production.php">Creative Production</a></li>
-                            <li><a class="nav-link" href="content-production.php">Content Production</a></li>
-                            <li><a class="nav-link" href="post-production.php">Post Production</a></li>
-                            <li><a class="nav-link" href="experiences-activations.php">Experiences & Activations</a></li>
-                            <li><a class="nav-link" href="production-management.php">Production Management</a></li>
+                            <li><a href="event-production-execution.php">Event Production & Execution</a></li>
+                            <li><a href="creative-production.php">Creative Production</a></li>
+                            <li><a href="content-production.php">Content Production</a></li>
+                            <li><a href="post-production.php">Post Production</a></li>
+                            <li><a href="experiences-activations.php">Experiences & Activations</a></li>
+                            <li><a href="production-management.php">Production Management</a></li>
                         </ul>
                     </div>
                     <!-- Footer Links End -->
@@ -109,11 +110,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Footer Copyright Text Start -->
                     <div class="footer-copyright-text">
-                        <p>Copyright © 2026 AMA Vision. All Rights Reserved.</p>
+                        <p>Copyright © 2026 AMA Vision. All Rights Reserved. | Developed by <a href="https://hoverbusinessservices.com/" target="_blank" style="color: #937b62;">Hover Business Services LLP</a></p>
                     </div>
-                    <!-- Footer Copyright Text End -->
                 </div>
             </div>
         </div>

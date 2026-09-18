@@ -10,12 +10,12 @@
          <div class="row">
              <div class="col-lg-12">
                  <div class="page-header-box">
-                     <h1 class="text-anime-style-2" data-cursor="-opaque">Event Production & <span> Execution</span>
+                     <h1 class="text-anime-style-2" data-cursor="-opaque">Experiences & <span> Activations</span>
                      </h1>
                      <nav class="wow fadeInUp">
                          <ol class="breadcrumb">
                              <li class="breadcrumb-item"><a href="./">Home</a></li>
-                             <li class="breadcrumb-item active" aria-current="page">Event Production & Execution</li>
+                             <li class="breadcrumb-item active" aria-current="page">Experiences & Activations</li>
                          </ol>
                      </nav>
                  </div>
@@ -34,48 +34,51 @@
 
              <div class="col-lg-8 order-1 order-md-2">
                  <div class="service-single-content">
+
                      <div class="page-single-image">
                          <figure class="image-anime reveal">
-                             <img src="images/services/event-production-execution.jpg" alt="">
+                             <img src="images/services/experiences-activations.jpg" alt="Experiences & Activations">
                          </figure>
                      </div>
+
                      <div class="service-entry">
+
                          <p class="wow fadeInUp">
-                             AMA Vision delivers execution-led event production with one accountable team managing every stage—from planning and logistics to stage setup, live execution and content creation. We handle corporate conferences, government events, summits, exhibitions, product launches and award ceremonies with seamless coordination.
+                             AMA Vision creates immersive brand experiences that turn audiences into active participants through thoughtfully designed activations, engagement formats and interactive environments. Every experience is built to strengthen brand recall and encourage meaningful audience interaction.
                          </p>
 
                          <p class="wow fadeInUp" data-wow-delay="0.2s">
-                             Our expertise covers AV production, lighting, décor, crew management, vendor coordination and live event coverage. Combined with photography, videography and same-day edits, we ensure every event creates lasting impact beyond the venue.
+                             Our team combines creative planning, on-ground execution and content-first thinking to deliver experiential campaigns, retail activations and social-ready moments that extend the impact of every event beyond the venue.
                          </p>
 
                          <div class="service-why-choose-box">
                              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                                 Event Production & <span>Execution</span>
+                                 Experiences & <span>Activations</span>
                              </h2>
+
                              <p class="wow fadeInUp">
-                                 Comprehensive event production services designed to manage planning, execution, logistics and live content under one experienced team.
+                                 End-to-end activation services designed to create memorable audience experiences that drive engagement, visibility and long-lasting brand impact.
                              </p>
 
                              <div class="service-why-choose-list wow fadeInUp" data-wow-delay="0.2s">
                                  <ul>
-                                     <li>Corporate Events & Conferences</li>
-                                     <li>Government & Public-Sector Events</li>
-                                     <li>Summits, Conclaves & Institutional Events</li>
-                                     <li>Exhibitions, Trade Shows & Pavilions</li>
-                                     <li>Product Launches & Brand Launches</li>
-                                     <li>Award Ceremonies & Recognition Events</li>
-                                     <li>Experiential Events & Branded Experiences</li>
-                                     <li>Live Event Coverage & Show-Day Content</li>
-                                     <li>Stage, AV, Décor, Manpower & Production Coordination</li>
-                                     <li>On-Ground Vendor & Logistics Coordination</li>
+                                     <li>Brand Activations</li>
+                                     <li>Experiential Zones</li>
+                                     <li>Audience Engagement Formats</li>
+                                     <li>Interactive Installations & Content Moments</li>
+                                     <li>Mall & Retail Experiences</li>
+                                     <li>Influencer / Creator-Led Activations</li>
+                                     <li>Event Content Ecosystems for Social Distribution</li>
                                  </ul>
                              </div>
                          </div>
 
-                        <?php include('include/service-offer-box.php'); ?>
+                         <?php include('include/service-offer-box.php'); ?>
 
                      </div>
+
                      <div class="page-single-faqs">
+
                          <div class="section-title">
                              <h2 class="text-anime-style-2" data-cursor="-opaque">
                                  Frequently Asked <span>Questions</span>
@@ -90,12 +93,13 @@
                                          data-bs-toggle="collapse"
                                          data-bs-target="#collapse1"
                                          aria-expanded="true">
-                                         1. Do you handle end-to-end event production?
+                                         1. What are brand activations?
                                      </button>
                                  </h2>
+
                                  <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordion">
                                      <div class="accordion-body">
-                                         <p>Yes, we manage planning, production, logistics, execution and event content under one accountable team.</p>
+                                         <p>Brand activations create interactive experiences that help audiences connect with your brand through engaging on-ground activities and memorable moments.</p>
                                      </div>
                                  </div>
                              </div>
@@ -105,12 +109,13 @@
                                      <button class="accordion-button collapsed" type="button"
                                          data-bs-toggle="collapse"
                                          data-bs-target="#collapse2">
-                                         2. Do you execute events across India?
+                                         2. Do you manage mall and retail activations?
                                      </button>
                                  </h2>
+
                                  <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                      <div class="accordion-body">
-                                         <p>Yes, AMA Vision operates from Delhi-NCR with Pan-India execution capability for events of different scales.</p>
+                                         <p>Yes, we execute mall promotions, retail experiences and audience engagement activities with complete on-ground coordination and production support.</p>
                                      </div>
                                  </div>
                              </div>
@@ -120,12 +125,13 @@
                                      <button class="accordion-button collapsed" type="button"
                                          data-bs-toggle="collapse"
                                          data-bs-target="#collapse3">
-                                         3. Which types of events do you produce?
+                                         3. Can you create influencer-led activations?
                                      </button>
                                  </h2>
+
                                  <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                      <div class="accordion-body">
-                                         <p>We produce corporate events, government events, summits, exhibitions, product launches, award ceremonies and experiential activations.</p>
+                                         <p>Absolutely. We design creator-led campaigns and influencer activations that combine live experiences with social-ready content for wider audience reach.</p>
                                      </div>
                                  </div>
                              </div>
@@ -135,18 +141,21 @@
                                      <button class="accordion-button collapsed" type="button"
                                          data-bs-toggle="collapse"
                                          data-bs-target="#collapse4">
-                                         4. Do you provide live event coverage?
+                                         4. How do you make activations effective?
                                      </button>
                                  </h2>
+
                                  <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordion">
                                      <div class="accordion-body">
-                                         <p>Yes, we provide live event coverage, show-day content, photography, videography and same-day edits when required.</p>
+                                         <p>We combine creative concepts, audience interaction, seamless execution and content capture to ensure every activation delivers measurable engagement and lasting brand impact.</p>
                                      </div>
                                  </div>
                              </div>
 
                          </div>
+
                      </div>
+
                  </div>
              </div>
          </div>
