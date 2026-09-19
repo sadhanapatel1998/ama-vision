@@ -1,3 +1,5 @@
+<?php include 'seo.php'; ?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -6,23 +8,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="<?php echo htmlspecialchars($pageMeta['description']); ?>">
+    <meta name="keywords" content="<?php echo htmlspecialchars($pageMeta['keywords']); ?>">
+    <!-- Author -->
+    <meta name="author" content="GoVacanzaDmc Travel & Tours">
+    <!-- Robots -->
+    <meta name="robots" content="<?php echo $pageMeta['robots']; ?>">
+    <!-- Canonical URL (Optional) -->
+    <?php if (!empty($pageMeta['canonical'])): ?>
+        <link rel="canonical" href="<?php echo $pageMeta['canonical']; ?>">
+    <?php endif; ?>
     <!-- Page Title -->
-    <?php
-    $page_title = $page_title ?? 'AMA Vision | Creative Production & Event Production Company in Delhi-NCR';
-    $page_description = $page_description ?? '';
-    $page_keywords = $page_keywords ?? '';
-    $page_author = $page_author ?? 'AMA Vision';
-    ?>
-    <title><?= htmlspecialchars($page_title) ?></title>
+    <title><?php echo htmlspecialchars($pageMeta['title']); ?></title>
 
-    <meta name="description" content="<?= htmlspecialchars($page_description) ?>">
 
-    <meta name="keywords" content="<?= htmlspecialchars($page_keywords) ?>">
-
-    <meta name="author" content="<?= htmlspecialchars($page_author) ?>">
     <!-- Favicon Icon -->
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"> -->
-
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">

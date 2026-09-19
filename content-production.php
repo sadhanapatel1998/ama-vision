@@ -1,8 +1,7 @@
  <?php
-    ob_start();
-    include('include/data.php');
-    ?>
-
+ ob_start();
+ include('include/data.php');
+ ?>
 
  <!-- Page Header Start -->
  <div class="page-header dark-section parallaxie">
@@ -163,10 +162,6 @@
          </div>
      </div>
  </div>
-
-
-
-
  <?php
     $content = ob_get_clean();
     require 'layout.php';
